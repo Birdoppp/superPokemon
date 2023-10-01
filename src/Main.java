@@ -5,10 +5,10 @@ public class Main {
     Fire Charmander = new Fire("Charmander" ,11,"char-char", true, false);
 
     Charmander.eats();
-    System.out.println(Charmander.getName() + " " +Charmander.getSound() + Charmander.isHasTrainer());
+    System.out.println(Charmander.getName() + " says " +Charmander.getSound() +" and"+ Charmander.isHasTrainer());
 
     Charmander.setSound("Graaa!!");
-        System.out.println(Charmander.getSound());
+        System.out.println(Charmander.getName() + "'s battle-cry is "+ Charmander.getSound());
 
     Electric Pikachu = new Electric("Pikachu", 16, "Pika-pika");
 
@@ -22,6 +22,8 @@ public class Main {
     Water Chinchou = new Water("Chinchou", 22, "Chin-chin", "Electric");
 
         System.out.println(Chinchou.getName() + "'s type is "+  Chinchou.getSecondType());
+        System.out.println(Chinchou.getName() + "'s level is "+ Chinchou.getLevel());
+
     }
 
 }
