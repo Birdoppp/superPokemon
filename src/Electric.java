@@ -5,6 +5,23 @@ public class Electric extends Pokemon{
 
     @Override
     public void eats() {
+        System.out.println(getName() + " eats electric-berry");
 
     }
+
+
+    public void weakness() {
+        System.out.println(getName() + " has a weakness to Ground-type");
+
+    }
+
+    public void strongAgainst() {
+        System.out.println(getName() + " is strong against Water-type");
+
+    }
+
+    public void sleep() {
+        System.out.println(getName() + " sleeps 2 hrs a day");
+    }
+
 }
